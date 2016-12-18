@@ -7,12 +7,11 @@
 //
 
 #import "AppDelegate.h"
-#import "ALSdk.h"
+
 
 @implementation AppDelegate							
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [ALSdk initializeSdk];
     return YES;
 }
 

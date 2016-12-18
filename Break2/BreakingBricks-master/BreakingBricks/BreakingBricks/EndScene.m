@@ -10,8 +10,7 @@
 #import "MyScene.h"
 #import "HUDNode.h"
 #import "ViewController.h"
-// #import "ALAdView.h"
-#import "ALInterstitialAd.h"
+
 
 @implementation EndScene
 
@@ -50,7 +49,7 @@
         [tryAgain runAction:moveLabel completion:^{
             // Show an Ad if more than 24 points
             if (score > 24) {
-                [ALInterstitialAd showOver:[[UIApplication sharedApplication] keyWindow]];
+                //[ALInterstitialAd showOver:[[UIApplication sharedApplication] keyWindow]];
             }
         }];
         [self addChild:tryAgain];

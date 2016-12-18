@@ -35,7 +35,6 @@
 		3E7E29BA19B3BAC900C3DCBE /* BreakingBricksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E29B919B3BAC900C3DCBE /* BreakingBricksTests.m */; };
 		3E9B865A19D0C5150068A82A /* BlueSmoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3E9B865919D0C5150068A82A /* BlueSmoke.sks */; };
 		3ED6A5E619C509C5003A57EA /* StartScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6A5E519C509C5003A57EA /* StartScene.m */; };
-		3ED6A5FD19C51432003A57EA /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED6A5FC19C51432003A57EA /* AdSupport.framework */; };
 		3ED6A5FF19C51448003A57EA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED6A5FE19C51448003A57EA /* AVFoundation.framework */; };
 		3ED6A60119C51456003A57EA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED6A60019C51456003A57EA /* CoreTelephony.framework */; };
 		3ED6A60319C51468003A57EA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED6A60219C51468003A57EA /* CoreMedia.framework */; };
@@ -44,7 +43,6 @@
 		3ED6A60919CE523F003A57EA /* brick7p.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3ED6A60819CE523F003A57EA /* brick7p.atlas */; };
 		6C15A55419D8AF2F00C3C644 /* GreenBrickExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6C15A55319D8AF2F00C3C644 /* GreenBrickExplosion.sks */; };
 		6CC0A38019D8931D0043BF82 /* smallBrick.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6CC0A37F19D8931D0043BF82 /* smallBrick.atlas */; };
-		6CE3385A19D3192700E95AEF /* libAppLovinSdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE3385919D3192700E95AEF /* libAppLovinSdk.a */; };
 		97D89C251E06FB8D00ABBD64 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 97D89C241E06FB8D00ABBD64 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -107,13 +105,10 @@
 		3ED6A5F119C512FF003A57EA /* ALAdVideoPlaybackDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdVideoPlaybackDelegate.h; sourceTree = "<group>"; };
 		3ED6A5F219C512FF003A57EA /* ALAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAdView.h; sourceTree = "<group>"; };
 		3ED6A5F319C512FF003A57EA /* ALErrorCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALErrorCodes.h; sourceTree = "<group>"; };
-		3ED6A5F419C512FF003A57EA /* ALIncentivizedInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALIncentivizedInterstitialAd.h; sourceTree = "<group>"; };
-		3ED6A5F519C512FF003A57EA /* ALInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALInterstitialAd.h; sourceTree = "<group>"; };
 		3ED6A5F619C512FF003A57EA /* ALSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSdk.h; sourceTree = "<group>"; };
 		3ED6A5F719C512FF003A57EA /* ALSdkSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSdkSettings.h; sourceTree = "<group>"; };
 		3ED6A5F819C512FF003A57EA /* ALSwiftHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSwiftHeaders.h; sourceTree = "<group>"; };
 		3ED6A5F919C512FF003A57EA /* ALTargetingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTargetingData.h; sourceTree = "<group>"; };
-		3ED6A5FC19C51432003A57EA /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		3ED6A5FE19C51448003A57EA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3ED6A60019C51456003A57EA /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		3ED6A60219C51468003A57EA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -122,7 +117,6 @@
 		3ED6A60819CE523F003A57EA /* brick7p.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = brick7p.atlas; sourceTree = "<group>"; };
 		6C15A55319D8AF2F00C3C644 /* GreenBrickExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GreenBrickExplosion.sks; path = explosions/GreenBrickExplosion.sks; sourceTree = "<group>"; };
 		6CC0A37F19D8931D0043BF82 /* smallBrick.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = smallBrick.atlas; sourceTree = "<group>"; };
-		6CE3385919D3192700E95AEF /* libAppLovinSdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppLovinSdk.a; sourceTree = "<group>"; };
 		97D89C241E06FB8D00ABBD64 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,12 +126,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ED6A60719C51482003A57EA /* SystemConfiguration.framework in Frameworks */,
-				6CE3385A19D3192700E95AEF /* libAppLovinSdk.a in Frameworks */,
 				3ED6A60519C51473003A57EA /* MediaPlayer.framework in Frameworks */,
 				3ED6A60319C51468003A57EA /* CoreMedia.framework in Frameworks */,
 				3ED6A60119C51456003A57EA /* CoreTelephony.framework in Frameworks */,
 				3ED6A5FF19C51448003A57EA /* AVFoundation.framework in Frameworks */,
-				3ED6A5FD19C51432003A57EA /* AdSupport.framework in Frameworks */,
 				3E7E298A19B3BAC900C3DCBE /* CoreGraphics.framework in Frameworks */,
 				3E7E298C19B3BAC900C3DCBE /* UIKit.framework in Frameworks */,
 				3E7E298E19B3BAC900C3DCBE /* SpriteKit.framework in Frameworks */,
@@ -209,7 +201,6 @@
 				3ED6A60219C51468003A57EA /* CoreMedia.framework */,
 				3ED6A60019C51456003A57EA /* CoreTelephony.framework */,
 				3ED6A5FE19C51448003A57EA /* AVFoundation.framework */,
-				3ED6A5FC19C51432003A57EA /* AdSupport.framework */,
 				3E7E298719B3BAC900C3DCBE /* Foundation.framework */,
 				3E7E298919B3BAC900C3DCBE /* CoreGraphics.framework */,
 				3E7E298B19B3BAC900C3DCBE /* UIKit.framework */,
@@ -279,7 +270,6 @@
 		3ED6A5E719C512D6003A57EA /* Third Party */ = {
 			isa = PBXGroup;
 			children = (
-				6CE3385919D3192700E95AEF /* libAppLovinSdk.a */,
 				3ED6A5E819C512FF003A57EA /* headers */,
 			);
 			name = "Third Party";
@@ -299,8 +289,6 @@
 				3ED6A5F119C512FF003A57EA /* ALAdVideoPlaybackDelegate.h */,
 				3ED6A5F219C512FF003A57EA /* ALAdView.h */,
 				3ED6A5F319C512FF003A57EA /* ALErrorCodes.h */,
-				3ED6A5F419C512FF003A57EA /* ALIncentivizedInterstitialAd.h */,
-				3ED6A5F519C512FF003A57EA /* ALInterstitialAd.h */,
 				3ED6A5F619C512FF003A57EA /* ALSdk.h */,
 				3ED6A5F719C512FF003A57EA /* ALSdkSettings.h */,
 				3ED6A5F819C512FF003A57EA /* ALSwiftHeaders.h */,
